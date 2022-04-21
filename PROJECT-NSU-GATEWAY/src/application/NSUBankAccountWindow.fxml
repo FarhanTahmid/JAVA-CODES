@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="510.0" prefWidth="1030.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.StudentBankWindow">
+   <children>
+      <Label fx:id="studentName" alignment="CENTER" layoutX="390.0" layoutY="73.0" prefHeight="17.0" prefWidth="366.0" textFill="WHITE" />
+      <AnchorPane layoutX="-5.0" prefHeight="40.0" prefWidth="1036.0" style="-fx-background-color: white;">
+         <children>
+            <Label alignment="CENTER" layoutX="6.0" layoutY="4.0" prefHeight="17.0" prefWidth="1030.0" text="WELCOME TO NSU BANKING SYSTEM">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutY="41.0" prefHeight="468.0" prefWidth="180.0" style="-fx-background-color: white;" />
+      <Label layoutX="321.0" layoutY="73.0" prefHeight="17.0" prefWidth="145.0" text="WELCOME" textFill="WHITE" />
+      <Label fx:id="studentID" layoutX="409.0" layoutY="126.0" prefHeight="17.0" prefWidth="399.0" textFill="WHITE" />
+      <Label layoutX="321.0" layoutY="126.0" text="STUDENT ID:" textFill="WHITE" />
+      <AnchorPane layoutX="831.0" layoutY="41.0" prefHeight="468.0" prefWidth="200.0" style="-fx-background-color: white;">
+         <children>
+            <Button fx:id="button1" layoutX="71.0" layoutY="395.0" mnemonicParsing="false" onAction="#button" text="Button" />
+            <Label fx:id="bankbalance" layoutX="-8.0" layoutY="342.0" prefHeight="17.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

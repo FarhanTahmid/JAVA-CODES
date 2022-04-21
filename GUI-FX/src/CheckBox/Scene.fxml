@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="467.0" prefWidth="451.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CheckBox.Controller">
+   <children>
+      <BorderPane layoutX="-175.0" layoutY="-145.0" prefHeight="200.0" prefWidth="200.0" />
+      <CheckBox fx:id="myCheckBox" alignment="CENTER" contentDisplay="CENTER" layoutX="136.0" layoutY="88.0" mnemonicParsing="false" onAction="#change" text="RIFAT/MARILYN">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </CheckBox>
+      <Label fx:id="myLabel" layoutX="194.0" layoutY="344.0" text="RIFAT">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="myImageView" fitHeight="200.0" fitWidth="181.0" layoutX="135.0" layoutY="143.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@rifat-resized.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

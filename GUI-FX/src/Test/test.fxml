@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="532.0" prefWidth="577.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Test.Controller">
+   <children>
+      <AnchorPane layoutX="-154.0" layoutY="-101.0" prefHeight="200.0" prefWidth="406.0" />
+      <Label layoutX="77.0" layoutY="212.0" text="Farhan" />
+      <CheckBox fx:id="attendanceCheckBox" layoutX="160.0" layoutY="212.0" mnemonicParsing="false" onAction="#attendance" />
+      <Label fx:id="attendanceLabel" layoutX="275.0" layoutY="212.0" text="Label" />
+      <Label layoutX="77.0" layoutY="258.0" text="Nandini" />
+      <CheckBox fx:id="attendanceCheckBox" layoutX="160.0" layoutY="258.0" mnemonicParsing="false" onAction="#attendance" />
+      <Label fx:id="attendanceLabel" layoutX="275.0" layoutY="258.0" text="Label" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="396.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <AnchorPane layoutX="-229.0" layoutY="-192.0" prefHeight="200.0" prefWidth="200.0" />
+      <Label fx:id="textLabel" layoutY="65.0" prefHeight="17.0" prefWidth="762.0" text="THIS IS SOME CSS STYLING" />
+      <Label fx:id="titleLabel" layoutX="2.0" layoutY="246.0" prefHeight="17.0" prefWidth="760.0" text="LEVEL1" />
+   </children>
+</AnchorPane>

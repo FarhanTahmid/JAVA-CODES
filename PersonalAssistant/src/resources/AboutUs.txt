@@ -1,0 +1,22 @@
+Personal Assistant
+- A Daily Life task management system
+--------------------------------------
+
+Developed By:
+
+- Shadman Taqi
+NSU Id no: 2013354642
+- Tasnuva Tasnim Progga
+NSU Id no: 2013914642
+
+This project is a virtual personal assistant .This digital assistant takes notes from the user.
+Users can add tasks with date and time .They can edit or delete it whenever they wants.
+After completing task user can mark it as done.
+Users have to open an account first time by using sign in.
+From next time they can just Log in to use this application.
+
+In this project there is four different Features such as:
+•	Notes
+•	Tasks
+•	Send Email
+•	Text File Editor

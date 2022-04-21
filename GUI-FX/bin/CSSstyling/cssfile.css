@@ -1,0 +1,16 @@
+
+.root{
+	-fx-background-color:"black";
+}
+
+.label{
+	-fx-font-size:20;
+	-fx-font-family:"GOTHIC";
+	-fx-text-fill:"White";
+	-fx-alignment: center;
+}
+
+
+#titleLabel{
+	-fx-font-size:60;
+}
